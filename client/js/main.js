@@ -1,1 +1,2 @@
-Meteor.subscribe('allPosts');
+// Meteor.subscribe('allPosts');
+Meteor.subscribe('postsByAuthor', 'me');
